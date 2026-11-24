@@ -21,6 +21,7 @@ wdgroup15/
 ├── wardrobe.html         کمد و افزودن لباس        (feature-home)
 ├── builder.html          ست‌ساز و ست‌های ذخیره‌شده  (feature-notes)
 ├── suggest.html          پیشنهاد استایل           (feature-reminders)
+├── fonts/                فونت ایران‌سنس ایکس (۱۱ وزن، فرمت woff)  (develop)
 ├── css/
 │   ├── base.css          رنگ‌ها، هدر، دکمه‌ها، فرم   (develop)
 │   ├── welcome.css
@@ -42,13 +43,17 @@ wdgroup15/
 
 | برنچ | فایل‌ها |
 |---|---|
-| `develop` | `css/base.css`، `css/outfit.css`، `js/storage.js`، `js/ui.js`، `README.md` |
+| `develop` | `fonts/*.woff`، `css/base.css`، `css/outfit.css`، `js/storage.js`، `js/ui.js`، `README.md` |
 | `feature-welcome` | `index.html`، `css/welcome.css`، `js/welcome.js` |
 | `feature-home` | `wardrobe.html`، `css/wardrobe.css`، `js/wardrobe.js` |
 | `feature-notes` | `builder.html`، `css/builder.css`، `js/builder.js` |
 | `feature-reminders` | `suggest.html`، `css/suggest.css`، `js/suggest-engine.js`، `js/suggest.js` |
 
 ترتیب ادغام: اول `develop` را از `main` بگیرید، بعد هر `feature-*` را داخل `develop` ادغام کنید و در پایان `develop` را داخل `main`.
+
+## فونت
+
+تمام سایت با فونت **ایران‌سنس ایکس** نمایش داده می‌شود. فایل‌ها داخل پوشه `fonts/` هستند و در `css/base.css` تعریف شده‌اند، پس به اینترنت یا سرویس فونت بیرونی نیازی نیست.
 
 ## قابلیت‌ها
 
