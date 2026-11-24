@@ -1,0 +1,21 @@
+/* ست‌یار — صفحه پیشنهاد استایل (برنچ feature-reminders) */
+.toolbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+.toolbar .occ { display: flex; gap: 8px; flex-wrap: wrap; }
+
+.match { display: flex; align-items: center; gap: 4px; font-size: 0.82rem; color: var(--muted); }
+.match i {
+  width: 8px; height: 8px;
+  border-radius: 50%;
+  background: var(--line);
+  display: inline-block;
+}
+.match i.on { background: var(--rose); }
+
+#results .empty { grid-column: 1 / -1; }
